@@ -1,9 +1,11 @@
 import java.util.*;
-public class Scanner1{
+class Scanner1
+{
     public static void main(String args[])
     {
-      Scanner sc = new Scanner (System.in);
-      String n = sc.next();
-      System.out.println(n);
+        Scanner sc = new Scanner (System.in);
+        int age = sc.nextInt();
+        System.out.println(age);
+
     }
 }
