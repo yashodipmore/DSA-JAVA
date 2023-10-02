@@ -1,7 +1,17 @@
 public class Operator2 {
     public static void main(String[] args) {
-        int A = 12;
-        int B = 45;
-        System.out.println(A*B);
+        int x = 200, y = 50 , z = 100;
+        if(x y && y > z)
+        {
+            System.out.println("hello");
+        }
+        if ( z > y && z < x)
+        {
+            System.out.println("java");
+        }
+        if ((y+200)<x && (y+150) < z)
+        {
+            system.out.println("Hello.java");
+        }
     }
 }
